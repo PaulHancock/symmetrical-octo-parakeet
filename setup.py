@@ -23,5 +23,5 @@ setup(
     version=0.1,
     install_requires=get_requirements(),
     python_requires='>=3.8',
-    scripts=['scripts/runme']
+    scripts=['scripts/runme','mymodule/sky_sim.py']
 )
