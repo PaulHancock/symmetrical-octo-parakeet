@@ -20,7 +20,7 @@ def get_requirements():
 
 setup(
     name='mymodule',
-    version=0.1,
+    version=0.3,
     install_requires=get_requirements(),
     python_requires='>=3.8',
     scripts=['scripts/runme','mymodule/sky_sim.py']
